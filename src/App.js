@@ -9,7 +9,8 @@ import HelloWorld from './state-drills/HelloWorld';
 import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
 import Tabs from './state/Tabs';
-import Accordion from './state-drills/Accordion'
+import Accordion from './state-drills/Accordion';
+import DemonymApp from './demonymapp/demonymApp';
 
 
 // after
@@ -83,6 +84,9 @@ class App extends React.Component {
           <hr />
           <h2>2.1.10 Assignment</h2>
           <Accordion sections={sectionsProp}/>
+          <hr />
+          <h2>2.1.13  Exercises</h2>
+          <DemonymApp  />
         </Split>
         
       </main>
